@@ -1,0 +1,425 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.begin {
+    height: 100vh;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0) url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.nav-list li {
+    padding: 0 30px;
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.nav-list li a:hover {
+    color: grey;
+    transition: 0.5s;
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.logo img {
+    width: 40%;
+    border: 2px Solid white;
+    border-radius: 50px;
+}
+
+.right-nav {
+    width: 25%;
+    /* background-color:black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-nav input {
+    padding: 5px 18px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.btn-small {
+    padding: 5px 18px;
+    margin-left: 6px;
+    border-radius: 10px;
+}
+
+.bg-content {
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    /* width: 20%; */
+}
+
+.line {
+    width: 5px;
+    height: 12em;
+    background-color: black;
+    margin: 10px 20px;
+}
+
+.bg-text {
+    font-size: 40px;
+}
+
+.greet {
+    position: absolute;
+    top: 500px;
+    right: 144px;
+}
+
+.greet p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.btn-shopNow {
+    padding: 12px 25px;
+    /* background-color:black; */
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    background: none;
+}
+
+.btn-shopNow:hover {
+    border: 2px solid gray;
+    color: gray;
+    transition: 0.8s;
+}
+
+.feature {
+    padding: 40px 0;
+}
+
+.fea-head {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.fea-item {
+    display: grid;
+    /* justify-content: center; */
+    max-width: 96%;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40px;
+    margin-left: 80px;
+   
+
+}
+
+.fea-head h2 {
+    padding: 10px 0;
+}
+
+.fea-p1 {
+    width: 90%;
+    height: 15em;
+    /* background-color: red; */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 0px;
+    font-size: 30px;
+    /* text-align: center; */
+
+}
+
+.fea-nps p {
+    padding: 2px 0;
+    font-size: 18px;
+
+}
+
+.rs {
+    color: rgb(104, 97, 97);
+}
+
+.Addto {
+    padding: 10px 20px 0px 0px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    font-size: 13.2px;
+    background: none;
+
+}
+
+.Addto:hover {
+    border-bottom: 2px solid rgb(154, 151, 151);
+    transition: .7s;
+
+}
+
+.fashion {
+    background-color: rgb(227, 227, 227);
+    padding: 40px 0;
+    max-width: 100%;
+    margin: auto;
+    /* min-width: 50%; */
+
+}
+
+.fas-box {
+    display: flex;
+    /* max-width: 50%; */
+}
+
+.fas-box1 {
+    width: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.fas-box1 img {
+    width: 60%;
+}
+
+.fas-box2 {
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 10px 0px;
+    padding: 90px 40px;
+
+}
+
+.fas-box2 h2 {
+
+    padding: 5px 0;
+
+}
+
+.fas-box2 p {
+
+    padding: 10px 0px;
+
+}
+
+.btn-Explore {
+
+    padding: 10px 25px;
+    /* background-color:black; */
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 10px;
+    background: none;
+    margin-top: 20px;
+
+}
+
+.btn-Explore:hover {
+
+    color: rgb(40, 40, 40);
+    border: 2px solid rgb(40, 40, 40);
+    transition: 0.9s;
+    box-shadow: 0px 5px 25px rgb(111, 225, 224);
+
+
+}
+
+/* .bg-gray{
+    background:rgba(0, 0, 0, 0) url("../images/bg-gray.jpg");
+    background-size: cover;
+    
+} */
+
+.bottom{
+    width:100vw;
+    background-color: rgb(30, 30, 30);
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.bottom-box{
+    width:20vw;
+    background-color: blue;
+    height:30vh ;
+    background-color:black ;
+    position: relative;
+    top:-35px;
+    right:40px;
+}
+.bottom-box-padding{
+    padding: 20px 20px;
+}
+
+.bottom-inp input{
+    padding:10px 10px;
+}
+.btn-send{
+    padding:10px 20px;
+    margin:8px 0;
+    background-color: rgb(50, 136, 255);
+    border:0;
+    color:white;
+    border-radius: 2px;
+}
+
+.btn-send:hover{
+    background-color: rgb(0, 106, 255);
+    transition: 0.6s;
+}
+
+
+.socialMedia{
+    width:100%;
+    background-color: aqua;
+    margin:8px 0;
+}
+/* .socialMedia img{
+   width:20%;
+} */
+
+
+.bottom-item{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* justify-content: center; */
+}
+
+
+.product{
+    grid-template-columns: auto auto auto;
+    margin: 40px 40px;
+
+}
+
+
+
+.text-footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/* media query for tablet and laptop */
+
+@media only screen and (max-width: 990px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        margin: auto;
+    }
+
+    .fas-box {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fas-box1 img {
+        width: 70%;
+    }
+
+    .fea-item {
+        grid-template-columns: auto auto auto;
+        margin-left: 50px;
+    }
+    .fea-p1{
+        height: 12em;
+    }
+    .bottom-box{
+        width: 24vw;
+        margin-left: 90px;
+    }
+    .bottom-item{
+        display: grid;
+        /* grid-template-columns: auto auto; */
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 880px) {
+    .background {
+        /* background: rgba(0, 0, 0, 0.2); */
+        /* opacity: 9; */
+        /* background-color: black; */
+        /* background-blend-mode:  darken; */
+
+    }
+
+    /* .bottom{
+        flex-direction: column;
+    } */
+
+    
+    .bottom-item{
+        
+        grid-template-columns: auto  ;
+    }
+    .bottom-box{
+        width:35vw;
+        height:30vh ;
+    }
+ 
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fea-item {
+        grid-template-columns: auto auto ;
+        margin-left: 50px;
+    }
+    .fea-p1{
+        height: 10.5em;
+    }
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-box{
+        width:50vw;
+        height:30vh ;
+    }
+  }
