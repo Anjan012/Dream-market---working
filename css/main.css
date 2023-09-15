@@ -55,10 +55,10 @@
 }
 
 .right-nav {
-    width: 25%;
+    width: 30%;
     /* background-color:black; */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -270,9 +270,9 @@
 }
 
 .bottom-box{
-    width:20vw;
+    width:25vw;
     background-color: blue;
-    height:30vh ;
+    height:35vh ;
     background-color:black ;
     position: relative;
     top:-35px;
@@ -329,6 +329,8 @@
     text-align: center;
     padding: 10px 0;
     font-size: 16px;
+    background-color: black;
+    color: white;
 }
 
 
@@ -341,13 +343,13 @@
 
 @media only screen and (max-width: 990px) {
 
-    .navbar {
+    /* .navbar {
         flex-direction: column;
-    }
+    } */
 
-    .right-nav {
+    /* .right-nav {
         margin: auto;
-    }
+    } */
 
     .fas-box {
         align-items: center;
@@ -390,6 +392,15 @@
     /* .bottom{
         flex-direction: column;
     } */
+    /* .nav-list{
+        flex-direction: column;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .nav-list li {
+        
+        padding: 10px 0;
+    } */
 
     
     .bottom-item{
@@ -406,6 +417,24 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+     .nav-list{
+        flex-direction: column;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .nav-list li {
+        
+        padding: 10px 0;
+    }
+    .navbar {
+        flex-direction: column;
+        
+    }
+    .right-nav{
+        margin:auto;
+    }
+    
     .fea-item {
         grid-template-columns: auto auto ;
         margin-left: 50px;
@@ -421,5 +450,20 @@
     .bottom-box{
         width:50vw;
         height:30vh ;
+    }
+  }
+
+
+  @media only screen and (max-width: 414px){
+    .bottom-box{
+        width:80vw;
+        height: 35vh;
+    }
+    .right-nav{
+        flex-direction: column;
+    }
+    .right-nav button{
+        flex-direction: column;
+        margin: 10px 0;
     }
   }
